@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Ajustes para la apariencia */
+  }
+  
+  .item {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    background-color: white; /* Color por defecto para los números no primos */
+    /* Ajustes para la apariencia */
+  }
+  
+  .prime {
+    background-color: red; /* Color para los números primos */
+  }
+  
